@@ -179,6 +179,8 @@ var usbDetect = require('usb-detection');
 usbDetect.stopMonitoring();
 ```
 
+# Diff with original
+Add an attribute `mountPath` to show mounted point on Linux and Mac. ( Windows need someone to fix ).
 
 
 # Testing
