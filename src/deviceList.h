@@ -13,7 +13,7 @@ typedef struct {
 		std::string manufacturer;
 		std::string serialNumber;
 		int deviceAddress;
-		stf::string mountPath;
+		std::string mountPath;
 } ListResultItem_t;
 
 typedef enum  _DeviceState_t {
